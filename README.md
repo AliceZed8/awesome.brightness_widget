@@ -7,7 +7,7 @@
 1. Копируем виджет в директорию виджетов.
 ```
 git clone https://github.com/AliceZed8/awesome.brightness_widget.git
-sudo cp awesome.brightness_widget/file /usr/share/lua/LUA_VERSION/vicious/widgets/
+sudo cp awesome.brightness_widget/_brightness_linux.lua /usr/share/lua/LUA_VERSION/vicious/widgets/
 ```
 2. Отредактируйте ваш конфиг ( чаще всего `.config/awesome/rc.lua`), добавив:
 ```
